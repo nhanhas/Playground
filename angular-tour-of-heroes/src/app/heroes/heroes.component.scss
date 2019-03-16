@@ -1,0 +1,15 @@
+.heroes-list-container{
+    color:green;
+    margin-top: 10px;
+    > span {
+        margin: 0;
+        color:grey;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .chosen {
+        
+        color: red;
+      }
+}
