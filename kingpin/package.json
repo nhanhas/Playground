@@ -6,7 +6,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
-    "node-sass": "*"
+    "node-sass": "*",
+    "react-router-dom": "*"
   },
   "scripts": {
     "start": "react-scripts start",
