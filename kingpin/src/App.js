@@ -16,7 +16,9 @@ class App extends Component {
         <br/>
         <Link to="/language/pt">Catalog with parameter PT</Link>      
         <br/>
-        <Link to="/language">Language</Link>      
+        <Link to="/language">Language</Link>    
+        <br/>
+        <Link to="/clients">Clients</Link>      
         
       </div>
     );

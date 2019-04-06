@@ -7,6 +7,8 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import App from './App';
 import Catalog from './screens/Catalog/Catalog';
 import Language from './screens/Language/Language';
+import Clients from './screens/Clients/Clients';
+import ClientInfo from './screens/Clients/ClientInfo/ClientInfo';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -20,6 +22,8 @@ const routing = (
                 <Route exact path="/" component={App} />
                 <Route path="/language" component={Language} /> 
                 <Route path="/catalog" component={Catalog} />
+                <Route exact path="/clients" component={Clients} />
+                <Route exact path="/clients/:id" component={ClientInfo} />
             </Switch>
         </div>
     </Router>
